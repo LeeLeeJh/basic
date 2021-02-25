@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css">
+    <script src="//code.jquery.com/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/latest/js/bootstrap.min.js"></script>
+    <style>
+    /* * {box-sizing: border-box;
+  } */
+
+
+
+
+
+  .price {
+    text-align: right;
+  }
+
+  .buyEx {
+    padding: 20px;
+    width: 300px;
+    border: 0.5px solid lightgray;
+    margin: 10px;
+    /* margin-left: 90px; */
+    margin: 0 auto;
+    font-size: 13px;
+  }
+
+  #paymentBtn {
+    margin-top: 20px;
+    width: 200px;
+    margin-left: 30px;
+  }
+
+
+  #price2 {
+    font-size: 12px;
+  }
+
+  .d5 body{margin: 0;}
+  .d5 div {padding: 30px 0}
+  .d5 form {
+  position: relative;
+  width: 300px;
+  margin-left: 150px;
+  margin-top: -35px;
+  }
+     .d5 {background: #FFFFFF;}
+  .d5 input, .d5 button {
+  outline: none;
+  background: transparent;
+  }
+  .d5 input {
+  width: 100%;
+  height: 42px;
+  padding-left: 15px;
+  border: 3px solid #E7E600;
+  }
+  .d5 button {
+  border: none;
+  height: 44px;
+  width: 42px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  }
+  .d5 button:before {
+  content: "\f002";
+  font-family: FontAwesome;
+  font-size: 16px;
+  color: #E7E600;
+  }
+  .d5 input:focus {
+  border-color: #311c24
+  }
+
+     /* .menu-icon {
+       background: url('')
+     } */
+     h1 {
+        /* color: black; line-height: 0px; float: left; */
+        color: black; line-height: 0px; float: left;
+        margin-top: -10px;
+     }
+     .top-menu ul {
+       margin-top: 30px;
+       list-style: none;
+       text-align: center;
+       border-top: 1px solid lightgray;
+       border-bottom: 1px solid lightgray;
+       padding: 10px 0;
+     }
+     .top-menu ul li {
+       font-family: sans-serif;
+       display: inline;
+       text-transform: uppercase;
+       padding: 0 10px;
+       letter-spacing: 1px;
+     }
+     .top-menu ul li a {
+       color: black;
+       text-decoration: none;
+     }
+     .top-menu ul li:hover {
+       background-color: antiquewhite;
+     }
+     .wrapper{
+       margin: 0 auto;
+       width: 1024px;
+     }
+     .top {
+       background-color: white;
+       position: relative;
+       left: 0;
+       padding: 0;
+       width: 100%;
+       height: 60px;
+       padding-top: 35px;
+     }
+     .top p {
+       font-size: 12px;
+       line-height: 20px;
+     }
+     .top p:hover {
+       color: #a8a8a8;
+     }
+     .ctop-menu {
+       display: inline;
+       font-family: sans-serif;
+     }
+     .ctop-menu li {
+       display: inline-block;
+     }
+     .ctop-menu .sometimes a p {
+       color: black;
+     }
+     .ctop-menu .sometimes:hover p {
+       color: darkgray;
+     }
+     .ctop-menu .test {
+       float: right;
+       padding-right: 20px;
+     }
+     .ctop-menu .test a p {
+       float: right;
+       color: black;
+     }
+     .top-menu .test:hover p {
+       color: darkgray;
+     }
+
+
+
+  .product {
+    padding-left: 200px; text-decoration: none;
+    display: inline;
+    /* margin-left: 250px; */
+  }
+  .productImg {
+    display: inline-block;
+  }
+
+  .prouctExplain {
+    display: inline-block;
+    float: right;
+    padding-right: 200px;
+  }
+
+ .serviceInfo {
+   font-size: 17.5px;
+   padding-top: 70px;
+   margin-left: 140px;
+ }
+
+
+ .service {
+   margin-top: 80px;
+   margin-left: 140px;
+   width: 470px;
+   height: 50px;
+   outline: 1px solid lightgray;
+   font-size: 13px;
+   text-color: black;
+ }
+
+
+ .service li {
+   list-style: none;
+ }
+
+ .service ul li {
+  float: left;
+  margin-right: 10px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  display: block;
+ }
+ .service ul li a {
+   color: black;
+ }
+
+ .service ul li a:hover {
+   background: #FFFFFF;
+ }
+
+    </style>
+  </head>
+  <body>
+
+
+    <div class="top">
+      <div class="wrapper">
+        <ul class="ctop-menu">
+          <li class="sometimes"><a href="#"><p><h1>logo</h1></p></a></li>
+          <li class="test"><a href="#"><p>회원가입</p></a></li>
+          <li class="test"><a href="#"><p>로그인</p></a></li>
+          <li class="test"><a href="#"><p>전문가 등록</p></a></li>
+          <div class="d5">
+          <form>
+          <input type="text" placeholder="검색어 입력">
+          <button type="submit"></button>
+          </form>
+          </div>
+        </ul>
+      </div>
+    </div>
+
+
+    <div class="top-menu">
+      <ul>
+        <li>
+          <a href="#"><image class="menu-icon"></image></a>
+        </li>
+        <li><a href="#">웹사이트 개발</a></li>
+        <li><a href="#">쇼핑몰·커머스</a></li>
+        <li><a href="#">모바일앱·웹</a></li>
+        <li><a href="#">프로그램 개발</a></li>
+        <li><a href="#">게임</a></li>
+        <li><a href="#">블록체인</a></li>
+        <li><a href="#">서버 및 기술지원</a></li>
+        <li><a href="#">챗봇</a></li>
+      </ul>
+    </div>
+
+
+
+
+
+<div class="product">
+<div class="productImg">
+  <img src="http://vrthumb.imagetoday.co.kr/2017/09/13/tid285t000102.jpg" />
+  </div>
+<div class="prouctExplain">
+<p>결제모듈을 연동해드립니다.</p>
+<div class="price">
+  <b>150,000원</b>
+  <br />
+  <div id="price2">
+      <p>(VAT 포함가)</p>
+    </div>
+    </div>
+    <div class="buyEx">
+     <b>결제기능 신규연동 및 오류수정</b><br />
+     쇼핑몰에 결제기능을 연동해드립니다 <br />
+     <br />
+    <i class="fa fa-check"></i>페이지 수:2페이지<br />
+     <br />
+    <i class="fa fa-calendar-day"></i>작업일:4일
+    수정횟수:3회
+    <br />
+    <button id="paymentBtn" class="btn btn-warning" type="submit" >결제하기</button>
+   </div>
+  </div>
+
+
+
+
+
+
+
+
+</div>
+
+   <p class="start_rating">
+
+    <a href="#" class="on">별점</a>
+   </p>
+
+
+   <div class="service">
+     <ul>
+   <li><a href="#serviceExplain">서비스 설명</a></li>
+   <li><a href="#priceInfo">가격정보</a></li>
+   <li><a href="#modify">수정 및 재진행</a></li>
+   <li><a href="#cancel">취소 및 환불 규정</a></li>
+   <li><a href="#serviceComment">서비스 평가</a></li>
+    </ul>
+   </div>
+
+   <div class="serviceInfo">
+    <p><a name="serviceExplain">서비스 설명</p>
+
+대고, 것은 아니더면, 할지니, 구하기 것이다. 우리의 귀는 열락의 끝까지 것은 두기 영락과 것이다. 기쁘며, 가는 하는 봄바람이다. 물방아 오아이스도 황금시대의 그것은 내는 풍부하게 것은 보배를 끝까지 것이다. 주는 그들은 그러므로 할지라도 능히 어디 무엇을 피고 맺어, 것이다. 살 같이, 천고에 스며들어 위하여서. 이상은 이 바이며, 가는 발휘하기 아니한 쓸쓸한 사랑의 이 말이다. 그들의 뼈 설산에서 주며, 부패를 찾아 가치를 품었기 피다. 얼마나 아니더면, 때에, 무엇을 너의 약동하다. 것이 작고 인생에 과실이 풍부하게 하여도 우리 것이다.
+
+유소년에게서 가진 것이 듣는다. 위하여 사는가 수 부패뿐이다. 보이는 있는 수 유소년에게서 것이다. 내려온 든 보는 크고 인생의 뼈 아니다. 붙잡아 열락의 위하여, 것은 있으랴? 그들의 바이며, 많이 우리 오아이스도 것이다. 풀이 못할 전인 아름답고 같으며, 끝에 말이다. 실현에 그들은 몸이 바이며, 우리는 것이다. 청춘의 이 속에서 노년에게서 그리하였는가? 구하기 일월과 대중을 살았으며, 것이 기관과 트고, 능히 것이다. 주며, 이상의 피가 인생을 있는 얼마나 철환하였는가?
+
+사는가 길지 인생에 커다란 품으며, 대중을 과실이 인생의 봄바람이다. 그림자는 트고, 풍부하게 날카로우나 우리 이것이다. 구하기 것은 귀는 품에 생생하며, 그리하였는가? 그와 무엇을 능히 일월과 바로 끓는 그들에게 밝은 인간의 쓸쓸하랴? 그들에게 긴지라 무한한 이상의 듣는다. 이상은 예가 군영과 온갖 살았으며, 밝은 그림자는 따뜻한 이상 이것이다. 이것은 구하기 산야에 맺어, 창공에 주며, 예수는 아니다. 것은 실로 우리 스며들어 아름다우냐? 그들의 것은 이상의 고동을 부패뿐이다. 밝은 것이 하여도 것은 찾아다녀도, 봄바람이다. 있는 동력은 이는 유소년에게서 거선의 대한 싸인 것이다.
+
+    <p><a name="priceInfo">가격정보</p>
+
+대고, 것은 아니더면, 할지니, 구하기 것이다. 우리의 귀는 열락의 끝까지 것은 두기 영락과 것이다. 기쁘며, 가는 하는 봄바람이다. 물방아 오아이스도 황금시대의 그것은 내는 풍부하게 것은 보배를 끝까지 것이다. 주는 그들은 그러므로 할지라도 능히 어디 무엇을 피고 맺어, 것이다. 살 같이, 천고에 스며들어 위하여서. 이상은 이 바이며, 가는 발휘하기 아니한 쓸쓸한 사랑의 이 말이다. 그들의 뼈 설산에서 주며, 부패를 찾아 가치를 품었기 피다. 얼마나 아니더면, 때에, 무엇을 너의 약동하다. 것이 작고 인생에 과실이 풍부하게 하여도 우리 것이다.
+
+유소년에게서 가진 것이 듣는다. 위하여 사는가 수 부패뿐이다. 보이는 있는 수 유소년에게서 것이다. 내려온 든 보는 크고 인생의 뼈 아니다. 붙잡아 열락의 위하여, 것은 있으랴? 그들의 바이며, 많이 우리 오아이스도 것이다. 풀이 못할 전인 아름답고 같으며, 끝에 말이다. 실현에 그들은 몸이 바이며, 우리는 것이다. 청춘의 이 속에서 노년에게서 그리하였는가? 구하기 일월과 대중을 살았으며, 것이 기관과 트고, 능히 것이다. 주며, 이상의 피가 인생을 있는 얼마나 철환하였는가?
+
+사는가 길지 인생에 커다란 품으며, 대중을 과실이 인생의 봄바람이다. 그림자는 트고, 풍부하게 날카로우나 우리 이것이다. 구하기 것은 귀는 품에 생생하며, 그리하였는가? 그와 무엇을 능히 일월과 바로 끓는 그들에게 밝은 인간의 쓸쓸하랴? 그들에게 긴지라 무한한 이상의 듣는다. 이상은 예가 군영과 온갖 살았으며, 밝은 그림자는 따뜻한 이상 이것이다. 이것은 구하기 산야에 맺어, 창공에 주며, 예수는 아니다. 것은 실로 우리 스며들어 아름다우냐? 그들의 것은 이상의 고동을 부패뿐이다. 밝은 것이 하여도 것은 찾아다녀도, 봄바람이다. 있는 동력은 이는 유소년에게서 거선의 대한 싸인 것이다.
+
+    <p><a name="#modify">수정 및 재진행</p>
+    <p><a name="#cancel">취소 및 환불 규정</p>
+    <p><a name="#serviceComment">서비스 평가</p>
+   </div>
+
+
+
+
+
+  </body>
+</html>
